@@ -83,7 +83,7 @@ if __name__ == "__main__":
             speak(result)
         elif 'google chrome' in query:
             speak("What should I search?")
-            chpath="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe %s"
+            chpath="C:\Program Files\Google\Chrome\Application\chrome.exe %s"
             search=com().lower()
             wb.get(chpath).open_new_tab(search+'.com')
         elif 'logout' in query:
